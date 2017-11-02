@@ -6,8 +6,18 @@ http://www.templatemo.com/tm-390-powerful
 
 */
 
-html, body {
-	font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+html {
+  font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
+  
+  
+}
+
+body{
+  background-image:url("images/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size: 100%;
 }
 
 a {
@@ -157,7 +167,7 @@ img {
 
 /* logo + main menu */
 .mWrapper {
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	box-shadow: 0 4px 4px -2px #ddd;
   	width: 100%;
   	background-color: white;
@@ -189,14 +199,25 @@ img {
 }
 
 /* section 1 */
-.section1,
+.section1{
+  padding-bottom: 30px;
+	padding-top: 30px;
+  border-bottom: 1px solid #E4E4E4;
+
+  background-image: url(images/1.jpg); /* Путь к фоновому изображению */
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size: 100%;
+  z-index: 1;
+}
 .section2,
 .section3,
 .section4,
 .section5 {
 	padding-bottom: 30px;
 	padding-top: 30px;
-	border-bottom: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;  
 }
 .secHeader {
 	width: 60%;
