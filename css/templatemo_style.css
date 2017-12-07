@@ -288,6 +288,7 @@ img {
   /* -o-transition: all 0.2s ease-in-out 0s; */
   /* transition: all 0.2s ease-in-out 0s; */
   border-radius: 0%;
+  color: white;
 }
 
 .hexa-a:before, .hexa-a:after {
@@ -971,7 +972,7 @@ and (max-device-width : 1024px) {
   font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: 400;
   position: relative;
-  color: #097299;
+  color: floralwhite;
   /* background: #097299; */
   font-size: 1.5em;
   /* font-size: 14px; */
@@ -1010,4 +1011,9 @@ and (max-device-width : 1024px) {
     font-size: 1.5em;
     padding: 10px 30px;
   }
+}
+
+small {
+	font-size: 85%;
+    color: floralwhite !impotant;
 }
