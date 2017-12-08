@@ -157,11 +157,7 @@ img {
 
 /* logo + main menu */
 .mWrapper {
-<<<<<<< HEAD
-	margin-bottom: 0px;
-=======
 	margin-bottom: 50px;
->>>>>>> parent of ae035a9... 555
 	box-shadow: 0 4px 4px -2px #ddd;
   	width: 100%;
   	background-color: white;
@@ -200,18 +196,7 @@ img {
 .section5 {
 	padding-bottom: 30px;
 	padding-top: 30px;
-<<<<<<< HEAD
-  border-bottom: 1px solid #E4E4E4;
-  background-image: url('images/1.jpg'); 
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-position:center;
-  background-size: 100%;
-  opacity: 1.1;
-  z-index: 1;
-=======
 	border-bottom: 1px solid #E4E4E4;
->>>>>>> parent of ae035a9... 555
 }
 .secHeader {
 	width: 60%;
@@ -267,27 +252,25 @@ img {
 
 /* mid hexa */
 .hexa-a {
-    width: 100%;
-    min-width: 130px;
-    height: 0;
-    padding-bottom: 57.7%;
-    margin: 10%;
-    background: black;
-    border-color: #fff;
-    background: #097299;
-    border: 13px;
-    position: absolute;
-    color: #097299;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 82px;
-    -webkit-transition: all 0.2s ease-in-out;
-    -webkit-transition-delay: 0s;
-    -moz-transition: all 0.2s ease-in-out 0s;
-    -o-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
-    border-radius: 0%;
-    color: white;
-    border-color: black;
+  width: 100%;
+  min-width: 110px;
+  height: 0;
+  /* padding-bottom: 57.7%; */
+  margin: 30% 0 0;
+  background: black;
+  /* border-color: #fff; */
+  background: silver;
+  border: 3px;
+  position: absolute;
+  color: #097299;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 82px;
+  /* -webkit-transition: all 0.2s ease-in-out; */
+  /* -webkit-transition-delay: 0s; */
+  /* -moz-transition: all 0.2s ease-in-out 0s; */
+  /* -o-transition: all 0.2s ease-in-out 0s; */
+  /* transition: all 0.2s ease-in-out 0s; */
+  border-radius: 0%;
 }
 
 .hexa-a:before, .hexa-a:after {
@@ -971,7 +954,7 @@ and (max-device-width : 1024px) {
   font-family: 'Raleway', "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: 400;
   position: relative;
-  color: floralwhite;
+  color: #097299;
   /* background: #097299; */
   font-size: 1.5em;
   /* font-size: 14px; */
@@ -1010,13 +993,4 @@ and (max-device-width : 1024px) {
     font-size: 1.5em;
     padding: 10px 30px;
   }
-}
-
-small {
-	font-size: 85%;
-    color: floralwhite;
-}
-
-.text-center {
-		color: white;
 }
